@@ -1,32 +1,163 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://scenes/StonePlatform.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scenes/BlueShip.tscn" type="PackedScene" id=2]
-[ext_resource path="res://scenes/PlatformBlue.gd" type="Script" id=3]
 [ext_resource path="res://scenes/ObjectiveArea.gd" type="Script" id=4]
+[ext_resource path="res://scenes/BlueShip.gd" type="Script" id=5]
+[ext_resource path="res://scenes/RockObstacle.tscn" type="PackedScene" id=6]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 69.375, 39.5 )
+extents = Vector2( 26.6875, 91.25 )
 
 [node name="MainLevel" type="Node"]
 
-[node name="PlatformBlue" type="Node2D" parent="."]
-position = Vector2( 35, 565 )
-script = ExtResource( 3 )
+[node name="RockObstacle" parent="." instance=ExtResource( 6 )]
+position = Vector2( 239, 363 )
 
-[node name="StonePlatform" parent="PlatformBlue" instance=ExtResource( 1 )]
+[node name="RockObstacle2" parent="." instance=ExtResource( 6 )]
+position = Vector2( 55, 177 )
 
-[node name="StonePlatform2" parent="PlatformBlue" instance=ExtResource( 1 )]
-position = Vector2( 70, 0 )
+[node name="RockObstacle26" parent="." instance=ExtResource( 6 )]
+position = Vector2( 125, 250 )
+scale = Vector2( 0.771, 0.634 )
+
+[node name="RockObstacle42" parent="." instance=ExtResource( 6 )]
+position = Vector2( 716, 66 )
+scale = Vector2( 0.771, 0.634 )
+
+[node name="RockObstacle36" parent="." instance=ExtResource( 6 )]
+position = Vector2( 627, 485 )
+scale = Vector2( 0.771, 0.634 )
+
+[node name="RockObstacle38" parent="." instance=ExtResource( 6 )]
+position = Vector2( 714, 541 )
+scale = Vector2( 0.771, 0.634 )
+
+[node name="RockObstacle27" parent="." instance=ExtResource( 6 )]
+position = Vector2( 62, 290 )
+scale = Vector2( 0.319, 0.634 )
+
+[node name="RockObstacle34" parent="." instance=ExtResource( 6 )]
+position = Vector2( 544, 502 )
+scale = Vector2( 0.319, 0.634 )
+
+[node name="RockObstacle43" parent="." instance=ExtResource( 6 )]
+position = Vector2( 463, 282 )
+scale = Vector2( 0.319, 0.634 )
+
+[node name="RockObstacle44" parent="." instance=ExtResource( 6 )]
+position = Vector2( 514, 330 )
+scale = Vector2( 0.319, 0.634 )
+
+[node name="RockObstacle35" parent="." instance=ExtResource( 6 )]
+position = Vector2( 630, 561 )
+scale = Vector2( 0.319, 0.634 )
+
+[node name="RockObstacle37" parent="." instance=ExtResource( 6 )]
+position = Vector2( 749, 478 )
+scale = Vector2( 0.319, 0.634 )
+
+[node name="RockObstacle30" parent="." instance=ExtResource( 6 )]
+position = Vector2( 207, 63 )
+scale = Vector2( 0.319, 0.634 )
+
+[node name="RockObstacle31" parent="." instance=ExtResource( 6 )]
+position = Vector2( 291, 93 )
+scale = Vector2( 0.319, 0.634 )
+
+[node name="RockObstacle32" parent="." instance=ExtResource( 6 )]
+position = Vector2( 252, 145 )
+scale = Vector2( 0.319, 0.634 )
+
+[node name="RockObstacle33" parent="." instance=ExtResource( 6 )]
+position = Vector2( 416, 135 )
+scale = Vector2( 0.319, 0.634 )
+
+[node name="RockObstacle39" parent="." instance=ExtResource( 6 )]
+position = Vector2( 585, 57 )
+scale = Vector2( 0.319, 0.634 )
+
+[node name="RockObstacle40" parent="." instance=ExtResource( 6 )]
+position = Vector2( 647, 58 )
+scale = Vector2( 0.319, 0.634 )
+
+[node name="RockObstacle41" parent="." instance=ExtResource( 6 )]
+position = Vector2( 803, 59 )
+scale = Vector2( 0.319, 0.634 )
+
+[node name="RockObstacle28" parent="." instance=ExtResource( 6 )]
+position = Vector2( 141, 360 )
+scale = Vector2( 0.771, 0.634 )
+
+[node name="RockObstacle29" parent="." instance=ExtResource( 6 )]
+position = Vector2( 86, 426 )
+scale = Vector2( 0.771, 0.634 )
+
+[node name="RockObstacle3" parent="." instance=ExtResource( 6 )]
+position = Vector2( 125, 499 )
+
+[node name="RockObstacle4" parent="." instance=ExtResource( 6 )]
+position = Vector2( 298, 462 )
+
+[node name="RockObstacle5" parent="." instance=ExtResource( 6 )]
+position = Vector2( 246, 561 )
+
+[node name="RockObstacle6" parent="." instance=ExtResource( 6 )]
+position = Vector2( 173, 143 )
+
+[node name="RockObstacle7" parent="." instance=ExtResource( 6 )]
+position = Vector2( 80, 73 )
+
+[node name="RockObstacle8" parent="." instance=ExtResource( 6 )]
+position = Vector2( 447, 531 )
+
+[node name="RockObstacle9" parent="." instance=ExtResource( 6 )]
+position = Vector2( 941, 547 )
+
+[node name="RockObstacle10" parent="." instance=ExtResource( 6 )]
+position = Vector2( 972, 443 )
+
+[node name="RockObstacle11" parent="." instance=ExtResource( 6 )]
+position = Vector2( 976, 144 )
+
+[node name="RockObstacle12" parent="." instance=ExtResource( 6 )]
+position = Vector2( 904, 62 )
+
+[node name="RockObstacle13" parent="." instance=ExtResource( 6 )]
+position = Vector2( 361, 56 )
+
+[node name="RockObstacle20" parent="." instance=ExtResource( 6 )]
+position = Vector2( 752, 265 )
+
+[node name="RockObstacle24" parent="." instance=ExtResource( 6 )]
+position = Vector2( 483, 71 )
+
+[node name="RockObstacle18" parent="." instance=ExtResource( 6 )]
+position = Vector2( 826, 476 )
+
+[node name="RockObstacle19" parent="." instance=ExtResource( 6 )]
+position = Vector2( 730, 388 )
+
+[node name="RockObstacle15" parent="." instance=ExtResource( 6 )]
+position = Vector2( 480, 201 )
 
 [node name="BlueShip" parent="." instance=ExtResource( 2 )]
-position = Vector2( 72.7009, 421.901 )
+position = Vector2( 213, 252 )
+rotation = 1.5708
+script = ExtResource( 5 )
 
 [node name="ObjectiveArea" type="Area2D" parent="."]
+position = Vector2( 1001, 295 )
 script = ExtResource( 4 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ObjectiveArea"]
-position = Vector2( 70.625, 40 )
 shape = SubResource( 1 )
+
+[node name="ControlGuideLabel" type="Label" parent="."]
+margin_left = 7.0
+margin_top = 563.0
+margin_right = 1020.0
+margin_bottom = 577.0
+text = "UpArr: Accelerate | DownArr: Brake | LeftArr: Rotate Left | RightArr: Rotate Right"
+align = 1
 
 [connection signal="body_entered" from="ObjectiveArea" to="ObjectiveArea" method="_on_ObjectiveArea_body_entered"]
